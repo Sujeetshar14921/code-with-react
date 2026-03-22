@@ -1,0 +1,96 @@
+
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img {
+    height: 35px;
+    width: 35px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+}
+
+.top button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding: 6px 10px;
+    gap: 5px;
+    background-color: transparent;
+    color: #afacac;
+}
+
+ .center {
+    margin-top: -50px;
+ }
+
+.center h3 {
+    gap: 10px;
+    font-size: 15px;
+}
+
+.center span {
+    font-size: 10px;
+    color: #afacac;
+}
+
+.center h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.center .tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.center h4 {
+    font-size: 12px;
+    background-color: #e7e5e5;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dadada;
+}
+
+.bottom h3 {
+    font-size: 12px;
+    margin-bottom: -5px;
+}
+
+.bottom p {
+    font-size: 10px;
+    color: #afacac;
+}
+
+.bottom button {
+    background-color: #111;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    padding: 6px 10px;
+}
